@@ -1,20 +1,20 @@
-import java.util.List;
+import java.util.ArrayList;
 import java.util.Map.Entry;
 
 public class Order {
     private Integer id;
-    private Business business;
+    private Business business = null;
     private Client client;
-    private Entry<Integer, Integer> address;
+    private int[] address;
     private Integer orderStartTime;
-    private List<Meal> meals;
+    private ArrayList<Meal> meals;
     
-    public Order(Integer id, Client client, Entry<Integer, Integer> address, Integer orderStartTime, Meal meal) {
+    public Order(Integer id, Client client, int[] address, Integer orderStartTime, ArrayList<Meal> meal) {
         this.id = id;
         this.client = client;
         this.address = address;
         this.orderStartTime = orderStartTime;
-        this.meals.add(meal);
+        this.meals = meal;
     }
 
     public Business getBusiness() {
@@ -23,5 +23,9 @@ public class Order {
 
     public void setBusiness(Business business) {
         this.business = business;
+    }
+
+    public ArrayList<Meal> getMealsList() {
+        return meals;
     }
 }

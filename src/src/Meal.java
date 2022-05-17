@@ -1,6 +1,6 @@
+package src;
 public class Meal {
-
-    public enum FoodType {
+    private enum FoodType {
         PIZZERIA,
         ROTISERIA,
         CONFITERIA,
@@ -8,7 +8,6 @@ public class Meal {
     
     private FoodType ft;
     private Integer remainingTime;
-    private Cooker assignedCooker;
 
     public Meal(FoodType area, Integer timer) {
         ft = area;
@@ -20,17 +19,5 @@ public class Meal {
             remainingTime--;
         }   
         return true;
-    }
-
-    public Cooker getAssignedCooker() {
-        return assignedCooker;
-    }
-
-    public void setAssignedCooker(Cooker assignedCooker) {
-        this.assignedCooker = assignedCooker;
-    }
-
-    public FoodType getFoodType() {
-        return ft;
     }
 }
