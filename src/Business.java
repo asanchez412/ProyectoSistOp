@@ -24,22 +24,28 @@ public class Business {
         while(notAssignedOrders.size() > 0) {
             Order order = notAssignedOrders.get(0);
             var meals = order.getMealsList();
+            Boolean added = false;
             for(Meal meal : meals) {
                 Cooker cooker = cookers.get(meal.getFoodType());
                 if(cooker != null) {
+                    meal.setAssignedCooker(cooker);
                     cooker.addMeal(meal);
-                }
-                onGoingOrders.add(order);
-                notAssignedOrders.remove(0);
+                    if(!added) {
+                        onGoingOrders.add(order);
+                        added = true;
+                    }
+                    cooker.enqueueMeals();
+                }        
             }
+            notAssignedOrders.remove(0);
         }
     }
 
     public void onGoingOrders() {
         for (Order order : onGoingOrders) {
             for (Meal meal : order.getMealsList()) {
-                meal.cook();
-                System.out.println("ended cooking" + meal.hashCode());
+                meal.getAssignedCooker().cook();
+                System.out.println("ended cooking order: " + order.getId() + " from business: " + this.id);
             }
         }
     }

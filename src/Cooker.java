@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Cooker {
     private Integer maxMeals;
-    private Integer currentMeals;
+    private Integer currentMeals = 0;
     private Meal.FoodType area;
     private ArrayList<Meal> toCook = new ArrayList<Meal>();
     private ArrayList<Meal> cooking = new ArrayList<Meal>();
@@ -18,7 +18,7 @@ public class Cooker {
 
     public void enqueueMeals() {
         while(toCook.size() > 0) {
-            if (currentMeals < maxMeals) {
+            if (currentMeals < maxMeals) { // TODO: needs threading to work well
                 Meal meal = toCook.get(0);
                 cooking.add(meal);
                 toCook.remove(0);
@@ -36,5 +36,9 @@ public class Cooker {
 
     public void addMeal(Meal meal){
         toCook.add(meal);
+    }
+
+    public Integer getCurrentMeals() {
+        return this.currentMeals;
     }
 }

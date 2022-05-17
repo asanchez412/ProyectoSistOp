@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Map.Entry;
 
 public class Order {
     private Integer id;
@@ -27,5 +26,9 @@ public class Order {
 
     public ArrayList<Meal> getMealsList() {
         return meals;
+    }
+
+    public Integer getId() {
+        return id;
     }
 }
