@@ -2,7 +2,11 @@ import java.util.ArrayList;
 
 public class BusinessSelector {
 
-    public static ArrayList<Business> availableBusiness = new ArrayList<Business>();
+    private ArrayList<Business> businessList;
+    
+    public void setBusinessList(ArrayList<Business> availableBusiness) {
+        businessList = availableBusiness;
+    }
 
     public Business selectBusiness(Order order) {
         // TODO: planify taking into consideration empty queue slots and distance
@@ -22,7 +26,7 @@ public class BusinessSelector {
                     break;
             }
         }
-        for (Business business : availableBusiness) {
+        for (Business business : businessList) {
             var businessFoodTypes = business.getFoodTypes();
             if(foodTypes.length == businessFoodTypes.length) {
                 if(foodTypes[0] == businessFoodTypes[0] && foodTypes[1] == businessFoodTypes[1] && foodTypes[2] == businessFoodTypes[2]) {
@@ -33,9 +37,5 @@ public class BusinessSelector {
         }
         order.setBusiness(null);
         return null;
-    }
-
-    public static void addBusiness(Business business) {
-        availableBusiness.add(business);
     }
 }

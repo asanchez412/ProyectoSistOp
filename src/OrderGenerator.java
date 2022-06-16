@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class OrderGenerator {
-    private static OrderHandler orderHandler = new OrderHandler(new BusinessSelector());
+    private static OrderHandler orderHandler;
     private static HashMap<Integer, Client> clients = new HashMap<Integer, Client>();
 
     public static void generateOrder(String path) throws IOException {
@@ -14,7 +14,7 @@ public class OrderGenerator {
             while((line = reader.readLine()) != null) {
                 String[] attributes = line.split(",");
                 if(attributes.length == 5) {
-                    String[] strAddress = attributes[3].split(".");
+                    String[] strAddress = attributes[3].split(" ");
                     if(strAddress.length != 2) {
                         CustomWriter.write(new String[] { String.format("Invalid address, line %s", line) });
                         continue;
@@ -28,7 +28,7 @@ public class OrderGenerator {
                     }
                     Integer orderStartTime = Integer.parseInt(attributes[0]);
                     Integer orderId = Integer.parseInt(attributes[1]);
-                    String[] strMeals = attributes[4].split(".");
+                    String[] strMeals = attributes[4].split(" ");
                     ArrayList<Meal> meals = new ArrayList<Meal>();
                     for (String strMeal : strMeals) {
                         String[] strTime = strMeal.split(":");
@@ -51,6 +51,7 @@ public class OrderGenerator {
                         meals.add(new Meal(ft, timer));
                     }   
                     orderHandler.addOrder(new Order(orderId, client, address, orderStartTime, meals));
+                    CustomWriter.write(new String[] { String.format("Order %s generated, starting time: %s", orderId, orderStartTime) });
                 }
                 else {
                     CustomWriter.write(new String[] { String.format("Invalid line format, line %s", line) });
@@ -62,5 +63,9 @@ public class OrderGenerator {
             CustomWriter.write(new String[] { String.format("Invalid path %s", path) });
             return;
         }
+    }
+
+    public static void setOrderHandler(OrderHandler orderHandler) {
+        OrderGenerator.orderHandler = orderHandler;
     }
 }

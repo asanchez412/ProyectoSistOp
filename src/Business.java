@@ -2,7 +2,8 @@ import java.util.HashMap;
 import java.util.ArrayList;
 
 public class Business {
-    private Integer id; 
+    private Integer id;
+    private int[] address = new int[2]; 
     private ArrayList<Order> notAssignedOrders = new ArrayList<Order>();
     private ArrayList<Order> onGoingOrders = new ArrayList<Order>();
     private Boolean[] foodTypes = new Boolean[3];
@@ -14,6 +15,10 @@ public class Business {
 
     public Integer getId() {
         return id;
+    }
+
+    public int[] getAddress() {
+        return address;
     }
 
     public void addOrder(Order order) {
