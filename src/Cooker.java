@@ -18,20 +18,22 @@ public class Cooker {
 
     public void enqueueMeals() {
         while(toCook.size() > 0) {
-            if (currentMeals < maxMeals) { // TODO: needs threading to work well
+            if (currentMeals <= maxMeals) {
                 Meal meal = toCook.get(0);
                 cooking.add(meal);
                 toCook.remove(0);
                 currentMeals += 1;
             }
+            else {
+                break;
+            }
         }
     }
     
-    public Boolean cook() {
+    public void cook() {
         for (Meal meal : cooking) {
             meal.cook();
         }
-        return true;
     }
 
     public void addMeal(Meal meal){

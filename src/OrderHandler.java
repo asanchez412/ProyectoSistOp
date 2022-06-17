@@ -5,27 +5,25 @@ public class OrderHandler implements Runnable {
     private BusinessSelector selector = new BusinessSelector();
     private RiderSelector riderSelector = new RiderSelector();
     private ArrayList<Business> availableBusiness = new ArrayList<Business>();
-    private int i = 0;
+    private int i = 1;
 
     public void addOrder(Order order) {
         toDistribute.add(order);
     }
 
     public void sendOrderToBusiness() {
-        while(toDistribute.size() > 0) {
-            Order order = toDistribute.get(0);
-            selector.selectBusiness(order);
-            Business orderBusiness = order.getBusiness(); 
-            if(orderBusiness != null) {
-                orderBusiness.addOrder(order);
-            }
-            else {
-                // TODO: Log failure
-            }
-            //Revisar
-            toDistribute.remove(0);
-            CustomWriter.write(new String[] {Integer.toString(i), Integer.toString(order.getId()), "not assigned", "Asignado", Integer.toString(order.getBusiness().getId()), "No asignado"});
+        Order order = toDistribute.get(0);
+        selector.selectBusiness(order);
+        Business business = order.getBusiness(); 
+        if(business != null) {
+            business.addOrder(order);
         }
+        else {
+            // TODO: Log failure
+        }
+        //Revisar
+        toDistribute.remove(0);
+        CustomWriter.write(new String[] {Integer.toString(i), Integer.toString(order.getId()), "not assigned", "Asignado a un local", Integer.toString(order.getBusiness().getId()), "No asignado"});
     }
     
     public void addBusiness(Business business) {
@@ -36,10 +34,10 @@ public class OrderHandler implements Runnable {
     public void run() {
         selector.setBusinessList(availableBusiness);
         while(true) {
-            if(i == Main.atomicInteger.get()) {
-                sendOrderToBusiness();
-                i++;
+            if(i == Main.atomicInteger.get() && toDistribute.size() > 0) {
+                sendOrderToBusiness(); 
             }
+            i++;
         }
     }
 }
