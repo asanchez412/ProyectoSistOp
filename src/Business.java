@@ -96,8 +96,8 @@ public class Business implements Runnable {
                 if(notAssignedOrders.size() > 0) {
                     assignOrders();
                 }
+                i++;
             }
-            i++;
         }
     }
 }

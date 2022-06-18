@@ -18,6 +18,5 @@ public class CustomWriter  {
         else {
             throw new InvalidParameterException(String.format("Expected length was 6 and received length was: ", toPrint.length));
         }
-        wr.flush();
     }
 }

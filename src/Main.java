@@ -5,11 +5,8 @@ public class Main {
     public static AtomicInteger atomicInteger = new AtomicInteger(0);
     
     public static void main(String[] args) throws Exception {
-        try {
-            CustomWriter.setWriter(new PrintWriter(new BufferedWriter(new FileWriter("src/log.log"))));
-        } catch (Exception e) {
-            //TODO: handle exception
-        }
+        PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("src/log.log")));
+        CustomWriter.setWriter(writer);
         Cooker cooker1 = new Cooker(5, Meal.FoodType.PIZZERIA);
         Business b1 = new Business(0); 
         b1.addCooker(cooker1);
@@ -25,7 +22,8 @@ public class Main {
             Thread.sleep(1000);
             atomicInteger.incrementAndGet();
         }
-
-        CustomWriter.write(new String[] {"Tiempo", "Pedido" , "Tipo de producto", "Estado", "Local", "Repartidor"});
+        // CustomWriter.write(new String[] {"Tiempo", "Pedido" , "Tipo de producto", "Estado", "Local", "Repartidor"});
+        writer.flush();
+        writer.close();
     }   
 }

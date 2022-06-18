@@ -34,10 +34,12 @@ public class OrderHandler implements Runnable {
     public void run() {
         selector.setBusinessList(availableBusiness);
         while(true) {
-            if(i == Main.atomicInteger.get() && toDistribute.size() > 0) {
-                sendOrderToBusiness(); 
+            if(i == Main.atomicInteger.get()) {
+                if(toDistribute.size() > 0) {
+                    sendOrderToBusiness();
+                }
+                i++;    
             }
-            i++;
         }
     }
 }
