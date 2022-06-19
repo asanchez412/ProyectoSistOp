@@ -8,7 +8,8 @@ public class Meal {
     
     private FoodType ft;
     private Integer remainingTime;
-    private Boolean status = false; 
+    private Order order;
+    private Boolean status = false;
 
     public Meal(FoodType area, Integer timer) {
         ft = area;
@@ -30,5 +31,13 @@ public class Meal {
 
     public Boolean isCooked() {
         return status;
+    }
+
+    public void setOrder(Order order) {
+        this.order = order;
+    }
+
+    public Order getOrder() {
+        return order;
     }
 }

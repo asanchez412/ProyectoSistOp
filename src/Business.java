@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class Business implements Runnable {
     private Integer id;
-    private int[] address = new int[2]; 
+    private int[] address; 
     private ArrayList<Order> notAssignedOrders = new ArrayList<Order>();
     private ArrayList<Order> onGoingOrders = new ArrayList<Order>();
     private ArrayList<Order> readyOrders = new ArrayList<Order>();
@@ -11,8 +11,9 @@ public class Business implements Runnable {
     private HashMap<Meal.FoodType, Cooker> cookers = new HashMap<Meal.FoodType, Cooker>(); 
     private int i = 1;
     
-    public Business(Integer id) {
+    public Business(Integer id, int[] address) {
         this.id = id;
+        this.address = address;
     }
 
     public Integer getId() {
@@ -31,25 +32,22 @@ public class Business implements Runnable {
         while(notAssignedOrders.size() > 0) {
             Order order = notAssignedOrders.get(0);
             ArrayList<Meal> meals = order.getMealsList();
-            Boolean added = false;
             for(Meal meal : meals) {
                 Cooker cooker = cookers.get(meal.getFoodType());
                 if(cooker != null) {;
                     cooker.addMeal(meal);
-                    if(!added) {
-                        onGoingOrders.add(order);
-                        added = true;
-                    }
                 }        
             }
+            onGoingOrders.add(order);
+            CustomWriter.write(new String[] {Integer.toString(i), Integer.toString(order.getId()), "Orden completa", "Asignada a cocinero(s)", Integer.toString(order.getBusiness().getId()), "Asignado"});
             notAssignedOrders.remove(0);
         }
     }
 
     public void cook() {
         for (Cooker cooker : cookers.values()) {
-            cooker.enqueueMeals();
-            cooker.cook();
+            cooker.enqueueMeals(i);
+            cooker.cook(i);
         }
     }
 
@@ -62,7 +60,7 @@ public class Business implements Runnable {
             }
             readyOrders.add(order);
             onGoingOrders.remove(order);
-            System.out.println("ended cooking order: " + order.getId() + " from business: " + this.id);
+            CustomWriter.write(new String[] {Integer.toString(i), Integer.toString(order.getId()), "Orden completa", "Esperando repartidor", Integer.toString(order.getBusiness().getId()), "Asignado"});
         }
     }
 

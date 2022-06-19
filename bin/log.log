@@ -1,3 +1,4 @@
+Reloj: Tiempo,Pedido: Pedido,Tipo de producto: Tipo de producto,Estado: Estado,Local: Local,Repartidor: Repartidor
 Order 1 generated, starting time: 1
 Order 2 generated, starting time: 2
 Order 3 generated, starting time: 3
@@ -12,13 +13,21 @@ Order 11 generated, starting time: 11
 Order 12 generated, starting time: 12
 Order 13 generated, starting time: 13
 Order 14 generated, starting time: 14
-Reloj: 1,Pedido: 1,Tipo de producto: not assigned,Estado: Asignado a un local,Local: 0,Repartidor: No asignado
-Reloj: 2,Pedido: 2,Tipo de producto: not assigned,Estado: Asignado a un local,Local: 0,Repartidor: No asignado
-Reloj: 3,Pedido: 3,Tipo de producto: not assigned,Estado: Asignado a un local,Local: 0,Repartidor: No asignado
-Reloj: 4,Pedido: 4,Tipo de producto: not assigned,Estado: Asignado a un local,Local: 0,Repartidor: No asignado
-Reloj: 5,Pedido: 5,Tipo de producto: not assigned,Estado: Asignado a un local,Local: 0,Repartidor: No asignado
-Reloj: 6,Pedido: 6,Tipo de producto: not assigned,Estado: Asignado a un local,Local: 0,Repartidor: No asignado
-Reloj: 7,Pedido: 7,Tipo de producto: not assigned,Estado: Asignado a un local,Local: 0,Repartidor: No asignado
-Reloj: 8,Pedido: 8,Tipo de producto: not assigned,Estado: Asignado a un local,Local: 0,Repartidor: No asignado
-Reloj: 9,Pedido: 9,Tipo de producto: not assigned,Estado: Asignado a un local,Local: 0,Repartidor: No asignado
-Reloj: 10,Pedido: 10,Tipo de producto: not assigned,Estado: Asignado a un local,Local: 0,Repartidor: No asignado
+Business 1 generated, address(x,y): 1,0
+Cooker with foodType PIZZERIA added to previous business, simultaneous meals: 4
+Cooker with foodType ROTISERIA added to previous business, simultaneous meals: 1
+Business 2 generated, address(x,y): 3,1
+Cooker with foodType PIZZERIA added to previous business, simultaneous meals: 3
+Cooker with foodType CONFITERIA added to previous business, simultaneous meals: 2
+Business 3 generated, address(x,y): 2,2
+Cooker with foodType PIZZERIA added to previous business, simultaneous meals: 2
+Reloj: 1,Pedido: 1,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 2,Pedido: 2,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 3,Pedido: 3,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 4,Pedido: 4,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 5,Pedido: 5,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 6,Pedido: 6,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 7,Pedido: 7,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 8,Pedido: 8,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 9,Pedido: 9,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 10,Pedido: 10,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado

@@ -1,12 +1,10 @@
 import java.io.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 
-public class OrderGenerator {
+public class BusinessAndCookerGenerator {
     private static OrderHandler orderHandler;
-    private static HashMap<Integer, Client> clients = new HashMap<Integer, Client>();
-
-    public static void generateOrder(String path) throws IOException {
+    
+    public static void generateBusinessAndCookers(String path) throws IOException {
         try {
             InputStream inputStream = new FileInputStream(path);
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
@@ -14,28 +12,21 @@ public class OrderGenerator {
             reader.readLine(); // skip header
             while((line = reader.readLine()) != null) {
                 String[] attributes = line.split(",");
-                if(attributes.length == 5) {
-                    String[] strAddress = attributes[3].split("=");
+                if(attributes.length == 3) {
+                    String[] strAddress = attributes[1].split("=");
                     if(strAddress.length != 2) {
                         CustomWriter.write(new String[] { String.format("Invalid address, line %s", line) });
                         continue;
                     }
                     int[] address = new int[] { Integer.parseInt(strAddress[0]), Integer.parseInt(strAddress[1]) };
-                    Integer clientId = Integer.parseInt(attributes[2]);         
-                    Client client = clients.get(clientId);
-                    if(client == null) {
-                        client = new Client(clientId, address);
-                        clients.put(clientId, client);
-                    }
-                    Integer orderStartTime = Integer.parseInt(attributes[0]);
-                    Integer orderId = Integer.parseInt(attributes[1]);
-                    String[] strMeals = attributes[4].split("#");
-                    ArrayList<Meal> meals = new ArrayList<Meal>();
-                    for (String strMeal : strMeals) {
-                        String[] strTime = strMeal.split("=");
-                        Integer timer = Integer.parseInt(attributes[1]);
+                    Integer businessId = Integer.parseInt(attributes[0]);
+                    String[] strCookers = attributes[2].split("#");
+                    ArrayList<Cooker> cookers = new ArrayList<Cooker>();
+                    for (String strCooker : strCookers) {
+                        String[] strSimulMeals = strCooker.split("=");
+                        Integer simultaneousMeals = Integer.parseInt(strSimulMeals[1]);
                         Meal.FoodType ft = null;
-                        switch(strTime[0]) {
+                        switch(strSimulMeals[0]) {
                             case "1":
                                 ft = Meal.FoodType.PIZZERIA;
                                 break;
@@ -49,14 +40,15 @@ public class OrderGenerator {
                                 CustomWriter.write(new String[] { String.format("Invalid food type, line %s", line) });
                                 break;
                         }
-                        meals.add(new Meal(ft, timer));
+                        cookers.add(new Cooker(simultaneousMeals, ft));
                     }
-                    Order order = new Order(orderId, client, address, orderStartTime, meals);   
-                    orderHandler.addOrder(order);
-                    for (Meal meal : meals) {
-                        meal.setOrder(order);
-                    }
-                    CustomWriter.write(new String[] { String.format("Order %s generated, starting time: %s", orderId, orderStartTime) });
+                    Business business = new Business(businessId, address);
+                    orderHandler.addBusiness(business);
+                    CustomWriter.write(new String[] { String.format("Business %s generated, address(x,y): %s,%s", businessId, strAddress[0], strAddress[1]) });   
+                    for (Cooker cooker : cookers) {
+                        business.addCooker(cooker);
+                        CustomWriter.write(new String[] { String.format("Cooker with foodType %s added to previous business, simultaneous meals: %s", cooker.getArea(), cooker.getMaxMeals()) });
+                    }   
                 }
                 else {
                     CustomWriter.write(new String[] { String.format("Invalid line format, line %s", line) });
@@ -71,6 +63,6 @@ public class OrderGenerator {
     }
 
     public static void setOrderHandler(OrderHandler orderHandler) {
-        OrderGenerator.orderHandler = orderHandler;
+        BusinessAndCookerGenerator.orderHandler = orderHandler;
     }
 }

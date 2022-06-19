@@ -21,9 +21,8 @@ public class OrderHandler implements Runnable {
         else {
             // TODO: Log failure
         }
-        //Revisar
         toDistribute.remove(0);
-        CustomWriter.write(new String[] {Integer.toString(i), Integer.toString(order.getId()), "not assigned", "Asignado a un local", Integer.toString(order.getBusiness().getId()), "No asignado"});
+        CustomWriter.write(new String[] {Integer.toString(i), Integer.toString(order.getId()), "Orden completa", "Asignado", Integer.toString(order.getBusiness().getId()), "No asignado"});
     }
     
     public void addBusiness(Business business) {

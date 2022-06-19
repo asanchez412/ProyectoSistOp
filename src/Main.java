@@ -7,14 +7,13 @@ public class Main {
     public static void main(String[] args) throws Exception {
         PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("src/log.log")));
         CustomWriter.setWriter(writer);
-        Cooker cooker1 = new Cooker(5, Meal.FoodType.PIZZERIA);
-        Business b1 = new Business(0); 
-        b1.addCooker(cooker1);
+        CustomWriter.write(new String[] {"Tiempo", "Pedido" , "Tipo de producto", "Estado", "Local", "Repartidor"});
         
         OrderHandler orderHandler = new OrderHandler();
-        orderHandler.addBusiness(b1);
         OrderGenerator.setOrderHandler(orderHandler);
         OrderGenerator.generateOrder("src/entrada1.csv");
+        BusinessAndCookerGenerator.setOrderHandler(orderHandler);
+        BusinessAndCookerGenerator.generateBusinessAndCookers("src/locales.csv");
         Thread th = new Thread(orderHandler);
         th.start();
 
@@ -22,7 +21,6 @@ public class Main {
             Thread.sleep(1000);
             atomicInteger.incrementAndGet();
         }
-        // CustomWriter.write(new String[] {"Tiempo", "Pedido" , "Tipo de producto", "Estado", "Local", "Repartidor"});
         writer.flush();
         writer.close();
     }   
