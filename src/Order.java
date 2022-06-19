@@ -31,4 +31,10 @@ public class Order {
     public Integer getId() {
         return id;
     }
+
+    public Order clone() {
+        Order newOrder = new Order(id, client, address, orderStartTime, meals);
+        newOrder.setBusiness(business);
+        return newOrder;
+    }
 }

@@ -23,11 +23,32 @@ Business 3 generated, address(x,y): 2,2
 Cooker with foodType PIZZERIA added to previous business, simultaneous meals: 2
 Reloj: 1,Pedido: 1,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
 Reloj: 2,Pedido: 2,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 2,Pedido: 1,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 3,Repartidor: Asignado
+Reloj: 2,Pedido: 2,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 3,Repartidor: Asignado
+Reloj: 3,Pedido: 1,Tipo de producto: PIZZERIA,Estado: Comenzó a prepararse,Local: 3,Repartidor: Asignado
 Reloj: 3,Pedido: 3,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 3,Pedido: 1,Tipo de producto: PIZZERIA,Estado: Comenzó a prepararse,Local: 3,Repartidor: Asignado
+Reloj: 3,Pedido: 2,Tipo de producto: PIZZERIA,Estado: Comenzó a prepararse,Local: 3,Repartidor: Asignado
+Reloj: 3,Pedido: 1,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 3,Repartidor: Asignado
+Reloj: 3,Pedido: 3,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 3,Repartidor: Asignado
+Reloj: 4,Pedido: 2,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 3,Repartidor: Asignado
 Reloj: 4,Pedido: 4,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 4,Pedido: 4,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 3,Repartidor: Asignado
+Reloj: 5,Pedido: 3,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 3,Repartidor: Asignado
 Reloj: 5,Pedido: 5,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 5,Pedido: 5,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 3,Repartidor: Asignado
+Reloj: 6,Pedido: 4,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 3,Repartidor: Asignado
 Reloj: 6,Pedido: 6,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 6,Pedido: 6,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 3,Repartidor: Asignado
+Reloj: 7,Pedido: 5,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 3,Repartidor: Asignado
 Reloj: 7,Pedido: 7,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 7,Pedido: 7,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 3,Repartidor: Asignado
+Reloj: 8,Pedido: 6,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 3,Repartidor: Asignado
 Reloj: 8,Pedido: 8,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 8,Pedido: 8,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 3,Repartidor: Asignado
 Reloj: 9,Pedido: 9,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 9,Pedido: 7,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 3,Repartidor: Asignado
+Reloj: 9,Pedido: 9,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 3,Repartidor: Asignado
 Reloj: 10,Pedido: 10,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 10,Pedido: 8,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 3,Repartidor: Asignado
+Reloj: 10,Pedido: 10,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 3,Repartidor: Asignado

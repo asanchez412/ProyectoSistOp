@@ -16,7 +16,7 @@ public class OrderHandler implements Runnable {
         selector.selectBusiness(order);
         Business business = order.getBusiness(); 
         if(business != null) {
-            business.addOrder(order);
+            business.addOrder(order.clone());
         }
         else {
             // TODO: Log failure
@@ -27,6 +27,10 @@ public class OrderHandler implements Runnable {
     
     public void addBusiness(Business business) {
         availableBusiness.add(business);
+    }
+
+    public ArrayList<Business> getBusiness() {
+        return availableBusiness;
     }
 
     @Override

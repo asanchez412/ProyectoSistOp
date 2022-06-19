@@ -16,6 +16,10 @@ public class Main {
         BusinessAndCookerGenerator.generateBusinessAndCookers("src/locales.csv");
         Thread th = new Thread(orderHandler);
         th.start();
+        for (Business business : orderHandler.getBusiness()) {
+            Thread thr = new Thread(business);
+            thr.start();
+        }
 
         while(atomicInteger.get() <= 10) {
             Thread.sleep(1000);
