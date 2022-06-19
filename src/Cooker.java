@@ -41,6 +41,6 @@ public class Cooker {
     }
 
     public Integer getCurrentMeals() {
-        return this.currentMeals;
+        return currentMeals;
     }
 }
