@@ -7,15 +7,15 @@ public class RiderSelector{
         ridersList = availableRiders;
     }
 
-    public Rider selectRider(Business business, Order order) {
-        Rider theRider = new Rider();
+    public Rider selectRider(Order order) {
+        Rider theRider;
         int riderCounter = 0;
         int riderPosition = 0;
         double distance = Double.MIN_VALUE;
         double minDistance = Double.MAX_VALUE;
         for (Rider rider : ridersList) {
             riderCounter++;
-            distance = Utils.calculateDistance(rider.getActualPosition(), business.getAddress());
+            distance = Utils.calculateDistance(rider.getActualPosition(), order.getBusiness().getAddress());
             if (minDistance > distance){
                 minDistance = distance;
                 riderPosition = riderCounter;
@@ -24,7 +24,7 @@ public class RiderSelector{
         theRider = ridersList.get(riderPosition);
         theRider.setOrder(order);
         theRider.setTime((int)distance);
-        theRider.setAddress(business.getAddress());
+        theRider.setAddress(order.getBusiness().getAddress());
         theRider.setState(Rider.State.BUSY);
         ridersList.remove(riderPosition);
         return theRider;

@@ -7,6 +7,7 @@ public class Order {
     private int[] address;
     private Integer orderStartTime;
     private ArrayList<Meal> meals;
+    private Rider rider = null;
     
     public Order(Integer id, Client client, int[] address, Integer orderStartTime, ArrayList<Meal> meal) {
         this.id = id;
@@ -22,6 +23,14 @@ public class Order {
 
     public void setBusiness(Business business) {
         this.business = business;
+    }
+
+    public Rider getRider() {
+        return rider;
+    }
+
+    public void setRider(Rider rider) {
+        this.rider = rider;
     }
 
     public ArrayList<Meal> getMealsList() {
