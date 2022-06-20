@@ -97,6 +97,7 @@ public class Rider implements Runnable{
 
     @Override
     public void run() {
+        /*
         while(true) {
             if(i == Main.atomicInteger.get()) {
                 moveRider();
@@ -106,5 +107,6 @@ public class Rider implements Runnable{
                 i = Main.atomicInteger.get();
             }
         }
+         */
     }
 }

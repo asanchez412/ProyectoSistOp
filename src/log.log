@@ -13,72 +13,964 @@ Order 11 generated, starting time: 11
 Order 12 generated, starting time: 12
 Order 13 generated, starting time: 13
 Order 14 generated, starting time: 14
+Order 15 generated, starting time: 15
+Order 16 generated, starting time: 18
+Order 17 generated, starting time: 19
+Order 18 generated, starting time: 20
+Order 19 generated, starting time: 21
+Order 20 generated, starting time: 22
+Order 21 generated, starting time: 23
+Order 22 generated, starting time: 30
+Order 23 generated, starting time: 32
+Order 24 generated, starting time: 33
+Order 25 generated, starting time: 34
+Order 26 generated, starting time: 35
+Order 27 generated, starting time: 36
+Order 28 generated, starting time: 37
+Order 29 generated, starting time: 40
+Order 30 generated, starting time: 45
+Order 31 generated, starting time: 46
+Order 32 generated, starting time: 47
+Order 33 generated, starting time: 48
+Order 34 generated, starting time: 49
+Order 35 generated, starting time: 50
+Order 36 generated, starting time: 51
+Order 37 generated, starting time: 52
+Order 38 generated, starting time: 53
+Order 39 generated, starting time: 54
+Order 40 generated, starting time: 55
+Order 41 generated, starting time: 56
+Order 42 generated, starting time: 57
+Order 43 generated, starting time: 58
+Order 44 generated, starting time: 59
+Order 45 generated, starting time: 60
+Order 46 generated, starting time: 61
+Order 47 generated, starting time: 62
+Order 48 generated, starting time: 63
+Order 49 generated, starting time: 64
+Order 50 generated, starting time: 65
+Order 51 generated, starting time: 66
+Order 52 generated, starting time: 67
+Order 53 generated, starting time: 68
+Order 54 generated, starting time: 69
+Order 55 generated, starting time: 70
+Order 56 generated, starting time: 71
+Order 57 generated, starting time: 72
+Order 58 generated, starting time: 73
+Order 59 generated, starting time: 74
+Order 60 generated, starting time: 75
+Order 61 generated, starting time: 76
+Order 62 generated, starting time: 77
+Order 63 generated, starting time: 78
+Order 64 generated, starting time: 82
+Order 65 generated, starting time: 83
+Order 66 generated, starting time: 84
+Order 67 generated, starting time: 87
+Order 68 generated, starting time: 88
+Order 69 generated, starting time: 89
+Order 70 generated, starting time: 91
+Order 71 generated, starting time: 92
+Order 72 generated, starting time: 94
+Order 73 generated, starting time: 95
+Order 74 generated, starting time: 96
+Order 75 generated, starting time: 97
+Order 76 generated, starting time: 98
+Order 77 generated, starting time: 99
+Order 78 generated, starting time: 100
+Order 79 generated, starting time: 101
+Order 80 generated, starting time: 102
+Order 81 generated, starting time: 103
+Order 82 generated, starting time: 104
+Order 83 generated, starting time: 105
+Order 84 generated, starting time: 106
+Order 85 generated, starting time: 107
+Order 86 generated, starting time: 108
+Order 87 generated, starting time: 109
+Order 88 generated, starting time: 110
+Order 89 generated, starting time: 111
+Order 90 generated, starting time: 112
+Order 91 generated, starting time: 113
+Order 92 generated, starting time: 114
+Order 93 generated, starting time: 115
+Order 94 generated, starting time: 116
+Order 95 generated, starting time: 117
+Order 96 generated, starting time: 118
+Order 97 generated, starting time: 119
+Order 98 generated, starting time: 120
+Order 99 generated, starting time: 121
+Order 100 generated, starting time: 122
+Order 101 generated, starting time: 123
+Order 102 generated, starting time: 124
+Order 103 generated, starting time: 125
+Order 104 generated, starting time: 126
+Order 105 generated, starting time: 127
+Order 106 generated, starting time: 128
+Order 107 generated, starting time: 129
+Order 108 generated, starting time: 130
+Order 109 generated, starting time: 131
+Order 110 generated, starting time: 132
+Order 111 generated, starting time: 133
+Order 112 generated, starting time: 134
+Order 113 generated, starting time: 135
+Order 114 generated, starting time: 136
+Order 115 generated, starting time: 137
+Order 116 generated, starting time: 138
+Order 117 generated, starting time: 139
+Order 118 generated, starting time: 140
+Order 119 generated, starting time: 141
+Order 120 generated, starting time: 142
+Order 121 generated, starting time: 143
+Order 122 generated, starting time: 144
+Order 123 generated, starting time: 155
+Order 124 generated, starting time: 159
+Order 125 generated, starting time: 162
+Order 126 generated, starting time: 163
+Order 127 generated, starting time: 164
+Order 128 generated, starting time: 165
+Order 129 generated, starting time: 166
+Order 130 generated, starting time: 167
+Order 131 generated, starting time: 168
+Order 132 generated, starting time: 169
+Order 133 generated, starting time: 170
+Order 134 generated, starting time: 171
+Order 135 generated, starting time: 172
+Order 136 generated, starting time: 173
+Order 137 generated, starting time: 174
+Order 138 generated, starting time: 175
+Order 139 generated, starting time: 176
+Order 140 generated, starting time: 177
+Order 141 generated, starting time: 178
+Order 142 generated, starting time: 179
+Order 143 generated, starting time: 180
+Order 144 generated, starting time: 181
+Order 145 generated, starting time: 182
+Order 146 generated, starting time: 183
+Order 147 generated, starting time: 184
+Order 148 generated, starting time: 185
+Order 149 generated, starting time: 186
+Order 150 generated, starting time: 187
+Order 151 generated, starting time: 188
+Order 152 generated, starting time: 189
+Order 153 generated, starting time: 190
+Order 154 generated, starting time: 191
+Order 155 generated, starting time: 192
+Order 156 generated, starting time: 193
+Order 157 generated, starting time: 194
+Order 158 generated, starting time: 195
+Order 159 generated, starting time: 196
+Order 160 generated, starting time: 197
+Order 161 generated, starting time: 198
+Order 162 generated, starting time: 199
+Order 163 generated, starting time: 200
+Order 164 generated, starting time: 201
+Order 165 generated, starting time: 202
+Order 166 generated, starting time: 203
+Order 167 generated, starting time: 204
+Order 168 generated, starting time: 205
+Order 169 generated, starting time: 206
+Order 170 generated, starting time: 207
+Order 171 generated, starting time: 208
+Order 172 generated, starting time: 209
+Order 173 generated, starting time: 210
+Order 174 generated, starting time: 211
+Order 175 generated, starting time: 212
+Order 176 generated, starting time: 213
+Order 177 generated, starting time: 214
+Order 178 generated, starting time: 215
+Order 179 generated, starting time: 216
+Order 180 generated, starting time: 217
+Order 181 generated, starting time: 218
+Order 182 generated, starting time: 219
+Order 183 generated, starting time: 220
+Order 184 generated, starting time: 221
+Order 185 generated, starting time: 222
+Order 186 generated, starting time: 223
+Order 187 generated, starting time: 224
+Order 188 generated, starting time: 225
+Order 189 generated, starting time: 226
+Order 190 generated, starting time: 227
+Order 191 generated, starting time: 228
+Order 192 generated, starting time: 229
+Order 193 generated, starting time: 230
+Order 194 generated, starting time: 231
+Order 195 generated, starting time: 232
+Order 196 generated, starting time: 233
+Order 197 generated, starting time: 234
+Order 198 generated, starting time: 235
+Order 199 generated, starting time: 236
+Order 200 generated, starting time: 237
+Order 201 generated, starting time: 238
+Order 202 generated, starting time: 239
+Order 203 generated, starting time: 240
+Order 204 generated, starting time: 241
+Order 205 generated, starting time: 242
+Order 206 generated, starting time: 243
+Order 207 generated, starting time: 244
+Order 208 generated, starting time: 245
+Order 209 generated, starting time: 246
+Order 210 generated, starting time: 247
+Order 211 generated, starting time: 248
+Order 212 generated, starting time: 249
+Order 213 generated, starting time: 250
+Order 214 generated, starting time: 251
+Order 215 generated, starting time: 252
+Order 216 generated, starting time: 253
+Order 217 generated, starting time: 254
+Order 218 generated, starting time: 255
+Order 219 generated, starting time: 256
+Order 220 generated, starting time: 257
+Order 221 generated, starting time: 258
+Order 222 generated, starting time: 259
+Order 223 generated, starting time: 260
+Order 224 generated, starting time: 261
+Order 225 generated, starting time: 262
+Order 226 generated, starting time: 263
+Order 227 generated, starting time: 264
+Order 228 generated, starting time: 265
+Order 229 generated, starting time: 266
+Order 230 generated, starting time: 267
+Order 231 generated, starting time: 268
+Order 232 generated, starting time: 269
+Order 233 generated, starting time: 270
+Order 234 generated, starting time: 271
+Order 235 generated, starting time: 272
+Order 236 generated, starting time: 273
+Order 237 generated, starting time: 274
+Order 238 generated, starting time: 275
+Order 239 generated, starting time: 276
+Order 240 generated, starting time: 277
+Order 241 generated, starting time: 278
+Order 242 generated, starting time: 279
+Order 243 generated, starting time: 280
+Order 244 generated, starting time: 281
+Order 245 generated, starting time: 282
+Order 246 generated, starting time: 283
+Order 247 generated, starting time: 284
+Order 248 generated, starting time: 285
+Order 249 generated, starting time: 286
+Order 250 generated, starting time: 287
+Order 251 generated, starting time: 288
+Order 252 generated, starting time: 289
+Order 253 generated, starting time: 290
+Order 254 generated, starting time: 291
+Order 255 generated, starting time: 292
+Order 256 generated, starting time: 293
+Order 257 generated, starting time: 294
+Order 258 generated, starting time: 295
+Order 259 generated, starting time: 296
+Order 260 generated, starting time: 297
+Order 261 generated, starting time: 298
+Order 262 generated, starting time: 299
+Order 263 generated, starting time: 300
+Order 264 generated, starting time: 301
+Order 265 generated, starting time: 302
+Order 266 generated, starting time: 303
+Order 267 generated, starting time: 304
+Order 268 generated, starting time: 305
+Order 269 generated, starting time: 306
+Order 270 generated, starting time: 307
+Order 271 generated, starting time: 315
+Order 272 generated, starting time: 330
+Order 273 generated, starting time: 331
+Order 274 generated, starting time: 332
+Order 275 generated, starting time: 333
+Order 276 generated, starting time: 334
+Order 277 generated, starting time: 335
+Order 278 generated, starting time: 336
+Order 279 generated, starting time: 337
+Order 280 generated, starting time: 338
+Order 281 generated, starting time: 339
+Order 282 generated, starting time: 340
+Order 283 generated, starting time: 341
+Order 284 generated, starting time: 342
+Order 285 generated, starting time: 343
+Order 286 generated, starting time: 344
+Order 287 generated, starting time: 345
+Order 288 generated, starting time: 346
+Order 289 generated, starting time: 347
+Order 290 generated, starting time: 348
+Order 291 generated, starting time: 349
+Order 292 generated, starting time: 350
+Order 293 generated, starting time: 351
+Order 294 generated, starting time: 352
+Order 295 generated, starting time: 353
+Order 296 generated, starting time: 354
+Order 297 generated, starting time: 355
+Order 298 generated, starting time: 356
+Order 299 generated, starting time: 357
+Order 300 generated, starting time: 358
+Order 301 generated, starting time: 359
+Order 302 generated, starting time: 360
+Order 303 generated, starting time: 361
+Order 304 generated, starting time: 362
+Order 305 generated, starting time: 363
+Order 306 generated, starting time: 364
+Order 307 generated, starting time: 365
+Order 308 generated, starting time: 366
+Order 309 generated, starting time: 367
+Order 310 generated, starting time: 368
+Order 311 generated, starting time: 369
+Order 312 generated, starting time: 370
+Order 313 generated, starting time: 371
+Order 314 generated, starting time: 372
+Order 315 generated, starting time: 373
+Order 316 generated, starting time: 374
+Order 317 generated, starting time: 375
+Order 318 generated, starting time: 376
+Order 319 generated, starting time: 377
+Order 320 generated, starting time: 378
+Order 321 generated, starting time: 379
+Order 322 generated, starting time: 380
+Order 323 generated, starting time: 381
+Order 324 generated, starting time: 382
+Order 325 generated, starting time: 383
+Order 326 generated, starting time: 384
+Order 327 generated, starting time: 385
+Order 328 generated, starting time: 386
+Order 329 generated, starting time: 387
+Order 330 generated, starting time: 388
+Order 331 generated, starting time: 389
+Order 332 generated, starting time: 390
+Order 333 generated, starting time: 391
+Order 334 generated, starting time: 392
+Order 335 generated, starting time: 393
+Order 336 generated, starting time: 394
+Order 337 generated, starting time: 395
+Order 338 generated, starting time: 396
+Order 339 generated, starting time: 397
+Order 340 generated, starting time: 398
+Order 341 generated, starting time: 399
+Order 342 generated, starting time: 400
+Order 343 generated, starting time: 401
+Order 344 generated, starting time: 402
+Order 345 generated, starting time: 403
+Order 346 generated, starting time: 404
+Order 347 generated, starting time: 405
+Order 348 generated, starting time: 406
+Order 349 generated, starting time: 407
+Order 350 generated, starting time: 408
+Order 351 generated, starting time: 409
+Order 352 generated, starting time: 410
+Order 353 generated, starting time: 411
+Order 354 generated, starting time: 412
+Order 355 generated, starting time: 413
+Order 356 generated, starting time: 414
+Order 357 generated, starting time: 415
+Order 358 generated, starting time: 416
+Order 359 generated, starting time: 417
+Order 360 generated, starting time: 418
+Order 361 generated, starting time: 419
+Order 362 generated, starting time: 420
+Order 363 generated, starting time: 421
+Order 364 generated, starting time: 422
+Order 365 generated, starting time: 423
+Order 366 generated, starting time: 424
+Order 367 generated, starting time: 425
+Order 368 generated, starting time: 426
+Order 369 generated, starting time: 427
+Order 370 generated, starting time: 428
+Order 371 generated, starting time: 429
+Order 372 generated, starting time: 430
+Order 373 generated, starting time: 431
+Order 374 generated, starting time: 432
+Order 375 generated, starting time: 433
+Order 376 generated, starting time: 434
+Order 377 generated, starting time: 435
+Order 378 generated, starting time: 436
+Order 379 generated, starting time: 437
+Order 380 generated, starting time: 438
+Order 381 generated, starting time: 439
+Order 382 generated, starting time: 440
+Order 383 generated, starting time: 441
+Order 384 generated, starting time: 442
+Order 385 generated, starting time: 443
+Order 386 generated, starting time: 444
+Order 387 generated, starting time: 445
+Order 388 generated, starting time: 446
+Order 389 generated, starting time: 447
+Order 390 generated, starting time: 448
+Order 391 generated, starting time: 449
+Order 392 generated, starting time: 450
+Order 393 generated, starting time: 451
+Order 394 generated, starting time: 452
+Order 395 generated, starting time: 453
+Order 396 generated, starting time: 454
+Order 397 generated, starting time: 455
+Order 398 generated, starting time: 456
+Order 399 generated, starting time: 457
+Order 400 generated, starting time: 458
+Order 401 generated, starting time: 459
+Order 402 generated, starting time: 460
+Order 403 generated, starting time: 461
+Order 404 generated, starting time: 462
+Order 405 generated, starting time: 463
+Order 406 generated, starting time: 464
+Order 407 generated, starting time: 465
+Order 408 generated, starting time: 466
+Order 409 generated, starting time: 467
+Order 410 generated, starting time: 468
+Order 411 generated, starting time: 469
+Order 412 generated, starting time: 470
+Order 413 generated, starting time: 471
+Order 414 generated, starting time: 472
+Order 415 generated, starting time: 473
+Order 416 generated, starting time: 474
+Order 417 generated, starting time: 475
+Order 418 generated, starting time: 476
+Order 419 generated, starting time: 477
+Order 420 generated, starting time: 478
+Order 421 generated, starting time: 479
+Order 422 generated, starting time: 480
+Order 423 generated, starting time: 481
+Order 424 generated, starting time: 490
+Order 425 generated, starting time: 501
+Order 426 generated, starting time: 502
+Order 427 generated, starting time: 503
+Order 428 generated, starting time: 504
+Order 429 generated, starting time: 505
+Order 430 generated, starting time: 506
+Order 431 generated, starting time: 507
+Order 432 generated, starting time: 508
+Order 433 generated, starting time: 509
+Order 434 generated, starting time: 510
+Order 435 generated, starting time: 511
+Order 436 generated, starting time: 512
+Order 437 generated, starting time: 513
+Order 438 generated, starting time: 514
+Order 439 generated, starting time: 515
+Order 440 generated, starting time: 516
+Order 441 generated, starting time: 517
+Order 442 generated, starting time: 518
+Order 443 generated, starting time: 519
+Order 444 generated, starting time: 520
+Order 445 generated, starting time: 521
+Order 446 generated, starting time: 522
+Order 447 generated, starting time: 523
+Order 448 generated, starting time: 524
+Order 449 generated, starting time: 525
+Order 450 generated, starting time: 526
+Order 451 generated, starting time: 527
+Order 452 generated, starting time: 528
+Order 453 generated, starting time: 529
+Order 454 generated, starting time: 530
+Order 455 generated, starting time: 531
+Order 456 generated, starting time: 532
+Order 457 generated, starting time: 533
+Order 458 generated, starting time: 534
+Order 459 generated, starting time: 535
+Order 460 generated, starting time: 536
+Order 461 generated, starting time: 537
+Order 462 generated, starting time: 538
+Order 463 generated, starting time: 539
+Order 464 generated, starting time: 540
+Order 465 generated, starting time: 541
+Order 466 generated, starting time: 542
+Order 467 generated, starting time: 550
+Order 468 generated, starting time: 563
+Order 469 generated, starting time: 582
+Order 470 generated, starting time: 583
+Order 471 generated, starting time: 584
+Order 472 generated, starting time: 585
+Order 473 generated, starting time: 586
+Order 474 generated, starting time: 587
+Order 475 generated, starting time: 588
+Order 476 generated, starting time: 589
+Order 477 generated, starting time: 590
+Order 478 generated, starting time: 591
+Order 479 generated, starting time: 592
+Order 480 generated, starting time: 593
+Order 481 generated, starting time: 594
+Order 482 generated, starting time: 595
+Order 483 generated, starting time: 596
+Order 484 generated, starting time: 597
+Order 485 generated, starting time: 598
+Order 486 generated, starting time: 599
+Order 487 generated, starting time: 600
+Order 488 generated, starting time: 601
+Order 489 generated, starting time: 602
+Order 490 generated, starting time: 603
+Order 491 generated, starting time: 604
+Order 492 generated, starting time: 605
+Order 493 generated, starting time: 606
+Order 494 generated, starting time: 607
+Order 495 generated, starting time: 608
+Order 496 generated, starting time: 609
+Order 497 generated, starting time: 610
+Order 498 generated, starting time: 611
+Order 499 generated, starting time: 612
 Business 1 generated, address(x,y): 1,0
 Cooker with foodType PIZZERIA added to previous business, simultaneous meals: 4
 Cooker with foodType ROTISERIA added to previous business, simultaneous meals: 1
 Cooker with foodType CONFITERIA added to previous business, simultaneous meals: 1
+Business 2 generated, address(x,y): 1,1
+Cooker with foodType PIZZERIA added to previous business, simultaneous meals: 3
+Business 3 generated, address(x,y): 2,3
+Cooker with foodType ROTISERIA added to previous business, simultaneous meals: 4
+Cooker with foodType CONFITERIA added to previous business, simultaneous meals: 1
+Business 4 generated, address(x,y): 3,1
+Cooker with foodType ROTISERIA added to previous business, simultaneous meals: 1
+Business 5 generated, address(x,y): 2,2
+Cooker with foodType PIZZERIA added to previous business, simultaneous meals: 2
+Business 6 generated, address(x,y): 4,3
+Cooker with foodType PIZZERIA added to previous business, simultaneous meals: 1
+Business 7 generated, address(x,y): 3,2
+Cooker with foodType PIZZERIA added to previous business, simultaneous meals: 4
+Cooker with foodType CONFITERIA added to previous business, simultaneous meals: 2
+Business 8 generated, address(x,y): 2,2
+Cooker with foodType ROTISERIA added to previous business, simultaneous meals: 2
+Cooker with foodType PIZZERIA added to previous business, simultaneous meals: 1
+Cooker with foodType CONFITERIA added to previous business, simultaneous meals: 1
+Business 9 generated, address(x,y): 3,3
+Cooker with foodType ROTISERIA added to previous business, simultaneous meals: 1
+Business 10 generated, address(x,y): 2,3
+Cooker with foodType CONFITERIA added to previous business, simultaneous meals: 2
+Cooker with foodType ROTISERIA added to previous business, simultaneous meals: 2
 Rider 1 generated, address(x,y): 2,0
 Rider 2 generated, address(x,y): 2,1
-Rider 3 generated, address(x,y): 5,2
-Rider 4 generated, address(x,y): 2,3
-Rider 5 generated, address(x,y): 6,1
-Rider 6 generated, address(x,y): 1,0
-Rider 7 generated, address(x,y): 8,3
-Rider 8 generated, address(x,y): 4,0
-Rider 9 generated, address(x,y): 4,1
-Rider 10 generated, address(x,y): 1,2
+Rider 3 generated, address(x,y): 2,2
+Rider 4 generated, address(x,y): 3,1
+Rider 5 generated, address(x,y): 4,1
+Rider 6 generated, address(x,y): 1,3
+Rider 7 generated, address(x,y): 1,2
+Rider 8 generated, address(x,y): 2,8
+Rider 9 generated, address(x,y): 3,3
+Rider 10 generated, address(x,y): 4,3
+Rider 11 generated, address(x,y): 1,3
+Rider 12 generated, address(x,y): 6,6
+Rider 13 generated, address(x,y): 1,1
+Rider 14 generated, address(x,y): 5,1
+Rider 15 generated, address(x,y): 3,2
+Rider 16 generated, address(x,y): 3,3
+Rider 17 generated, address(x,y): 2,3
+Rider 18 generated, address(x,y): 2,4
+Rider 19 generated, address(x,y): 2,5
+Rider 20 generated, address(x,y): 5,2
+Rider 21 generated, address(x,y): 3,4
+Rider 22 generated, address(x,y): 3,5
+Rider 23 generated, address(x,y): 2,6
+Rider 24 generated, address(x,y): 2,7
+Rider 25 generated, address(x,y): 2,8
+Rider 26 generated, address(x,y): 3,3
+Rider 27 generated, address(x,y): 4,3
+Rider 28 generated, address(x,y): 1,3
+Rider 29 generated, address(x,y): 6,6
+Rider 30 generated, address(x,y): 1,1
+Rider 31 generated, address(x,y): 5,1
+Rider 32 generated, address(x,y): 3,2
+Rider 33 generated, address(x,y): 3,3
+Rider 34 generated, address(x,y): 2,3
+Rider 35 generated, address(x,y): 2,4
+Rider 36 generated, address(x,y): 2,5
+Rider 37 generated, address(x,y): 3,2
+Rider 38 generated, address(x,y): 4,2
+Rider 39 generated, address(x,y): 1,0
+Rider 40 generated, address(x,y): 1,1
+Rider 41 generated, address(x,y): 1,2
+Rider 42 generated, address(x,y): 5,2
+Rider 43 generated, address(x,y): 3,4
+Rider 44 generated, address(x,y): 3,5
+Rider 45 generated, address(x,y): 2,6
+Rider 46 generated, address(x,y): 2,7
+Rider 47 generated, address(x,y): 2,8
+Rider 48 generated, address(x,y): 1,2
+Rider 49 generated, address(x,y): 2,8
+Rider 50 generated, address(x,y): 3,3
+Rider 51 generated, address(x,y): 4,3
+Rider 52 generated, address(x,y): 1,3
+Rider 53 generated, address(x,y): 6,6
+Rider 54 generated, address(x,y): 1,1
+Rider 55 generated, address(x,y): 5,1
+Rider 56 generated, address(x,y): 3,2
+Rider 57 generated, address(x,y): 5,2
+Rider 58 generated, address(x,y): 3,4
+Rider 59 generated, address(x,y): 3,5
+Rider 60 generated, address(x,y): 2,6
+Rider 61 generated, address(x,y): 2,7
+Rider 62 generated, address(x,y): 2,8
+Rider 63 generated, address(x,y): 1,2
+Rider 64 generated, address(x,y): 2,8
+Rider 65 generated, address(x,y): 3,3
+Rider 66 generated, address(x,y): 4,3
+Rider 67 generated, address(x,y): 2,8
+Rider 68 generated, address(x,y): 1,2
+Rider 69 generated, address(x,y): 2,8
+Rider 70 generated, address(x,y): 3,3
+Rider 71 generated, address(x,y): 4,3
+Rider 72 generated, address(x,y): 1,3
+Rider 73 generated, address(x,y): 6,6
+Rider 74 generated, address(x,y): 2,8
+Rider 75 generated, address(x,y): 3,3
+Rider 76 generated, address(x,y): 4,3
+Rider 77 generated, address(x,y): 2,8
+Rider 78 generated, address(x,y): 1,2
+Rider 79 generated, address(x,y): 2,8
+Rider 80 generated, address(x,y): 3,3
+Rider 81 generated, address(x,y): 4,3
+Rider 82 generated, address(x,y): 1,3
+Rider 83 generated, address(x,y): 6,6
+Rider 84 generated, address(x,y): 1,1
+Rider 85 generated, address(x,y): 5,1
+Rider 86 generated, address(x,y): 3,2
+Rider 87 generated, address(x,y): 5,2
+Rider 88 generated, address(x,y): 2,8
+Rider 89 generated, address(x,y): 1,2
+Rider 90 generated, address(x,y): 2,8
+Rider 91 generated, address(x,y): 3,3
+Rider 92 generated, address(x,y): 4,3
+Rider 93 generated, address(x,y): 1,3
+Rider 94 generated, address(x,y): 6,6
+Rider 95 generated, address(x,y): 1,1
+Rider 96 generated, address(x,y): 5,1
+Rider 97 generated, address(x,y): 3,2
+Rider 98 generated, address(x,y): 3,3
+Rider 99 generated, address(x,y): 4,3
+Rider 100 generated, address(x,y): 2,8
+Rider 101 generated, address(x,y): 1,2
+Rider 102 generated, address(x,y): 2,8
+Rider 103 generated, address(x,y): 3,3
+Rider 104 generated, address(x,y): 4,3
+Rider 105 generated, address(x,y): 1,3
+Rider 106 generated, address(x,y): 6,6
+Rider 107 generated, address(x,y): 1,1
+Rider 108 generated, address(x,y): 5,1
+Rider 109 generated, address(x,y): 3,2
+Rider 110 generated, address(x,y): 5,2
+Rider 111 generated, address(x,y): 2,8
+Rider 112 generated, address(x,y): 1,2
+Rider 113 generated, address(x,y): 6,1
+Rider 114 generated, address(x,y): 1,2
+Rider 115 generated, address(x,y): 4,3
+Rider 116 generated, address(x,y): 3,2
+Rider 117 generated, address(x,y): 1,2
+Rider 118 generated, address(x,y): 2,2
+Rider 119 generated, address(x,y): 2,1
+Rider 120 generated, address(x,y): 2,6
+Rider 121 generated, address(x,y): 6,2
+Rider 122 generated, address(x,y): 6,6
+Rider 123 generated, address(x,y): 1,1
+Rider 124 generated, address(x,y): 5,1
+Rider 125 generated, address(x,y): 3,2
+Rider 126 generated, address(x,y): 5,2
+Rider 127 generated, address(x,y): 2,8
+Rider 128 generated, address(x,y): 1,2
+Rider 129 generated, address(x,y): 6,1
+Rider 130 generated, address(x,y): 1,2
+Rider 131 generated, address(x,y): 4,3
+Rider 132 generated, address(x,y): 3,2
+Rider 133 generated, address(x,y): 1,2
+Rider 134 generated, address(x,y): 2,2
+Rider 135 generated, address(x,y): 2,1
+Rider 136 generated, address(x,y): 2,6
+Rider 137 generated, address(x,y): 6,2
+Rider 138 generated, address(x,y): 1,2
+Rider 139 generated, address(x,y): 2,2
+Rider 140 generated, address(x,y): 2,1
+Rider 141 generated, address(x,y): 2,6
+Rider 142 generated, address(x,y): 6,2
+Rider 143 generated, address(x,y): 1,3
+Rider 144 generated, address(x,y): 4,4
+Rider 145 generated, address(x,y): 3,3
+Rider 146 generated, address(x,y): 1,3
+Rider 147 generated, address(x,y): 6,6
+Rider 148 generated, address(x,y): 1,1
+Rider 149 generated, address(x,y): 5,1
+Rider 150 generated, address(x,y): 3,2
+Rider 151 generated, address(x,y): 5,2
+Rider 152 generated, address(x,y): 2,8
+Rider 153 generated, address(x,y): 1,2
+Rider 154 generated, address(x,y): 6,1
+Rider 155 generated, address(x,y): 1,2
+Rider 156 generated, address(x,y): 4,3
+Rider 157 generated, address(x,y): 3,2
+Rider 158 generated, address(x,y): 1,2
+Rider 159 generated, address(x,y): 2,2
+Rider 160 generated, address(x,y): 2,1
+Rider 161 generated, address(x,y): 2,6
+Rider 162 generated, address(x,y): 6,2
+Rider 163 generated, address(x,y): 6,6
+Rider 164 generated, address(x,y): 1,1
+Rider 165 generated, address(x,y): 5,1
+Rider 166 generated, address(x,y): 3,2
+Rider 167 generated, address(x,y): 5,2
+Rider 168 generated, address(x,y): 2,8
+Rider 169 generated, address(x,y): 1,2
+Rider 170 generated, address(x,y): 6,1
+Rider 171 generated, address(x,y): 1,2
+Rider 172 generated, address(x,y): 4,3
+Rider 173 generated, address(x,y): 3,2
+Rider 174 generated, address(x,y): 1,2
+Rider 175 generated, address(x,y): 2,2
+Rider 176 generated, address(x,y): 2,1
+Rider 177 generated, address(x,y): 1,3
+Rider 178 generated, address(x,y): 2,2
+Rider 179 generated, address(x,y): 2,1
+Rider 180 generated, address(x,y): 2,6
+Rider 181 generated, address(x,y): 6,3
+Rider 182 generated, address(x,y): 1,4
+Rider 183 generated, address(x,y): 4,5
+Rider 184 generated, address(x,y): 3,4
+Rider 185 generated, address(x,y): 1,4
+Rider 186 generated, address(x,y): 2,2
+Rider 187 generated, address(x,y): 1,1
+Rider 188 generated, address(x,y): 2,1
+Rider 189 generated, address(x,y): 3,1
+Rider 190 generated, address(x,y): 1,4
+Rider 191 generated, address(x,y): 1,3
+Rider 192 generated, address(x,y): 4,3
+Rider 193 generated, address(x,y): 3,2
+Rider 194 generated, address(x,y): 1,2
+Rider 195 generated, address(x,y): 2,2
+Rider 196 generated, address(x,y): 2,1
+Rider 197 generated, address(x,y): 1,3
+Rider 198 generated, address(x,y): 2,2
+Rider 199 generated, address(x,y): 2,1
+Rider 200 generated, address(x,y): 2,6
+Rider 201 generated, address(x,y): 6,3
+Rider 202 generated, address(x,y): 1,4
+Rider 203 generated, address(x,y): 4,5
+Rider 204 generated, address(x,y): 3,4
+Rider 205 generated, address(x,y): 1,4
+Rider 206 generated, address(x,y): 2,2
+Rider 207 generated, address(x,y): 1,1
+Rider 208 generated, address(x,y): 2,1
+Rider 209 generated, address(x,y): 1,6
+Rider 210 generated, address(x,y): 2,4
+Rider 211 generated, address(x,y): 3,5
+Rider 212 generated, address(x,y): 2,6
+Rider 213 generated, address(x,y): 4,4
+Rider 214 generated, address(x,y): 1,6
+Rider 215 generated, address(x,y): 1,7
+Rider 216 generated, address(x,y): 2,5
+Rider 217 generated, address(x,y): 1,4
+Rider 218 generated, address(x,y): 2,2
+Rider 219 generated, address(x,y): 3,3
+Rider 220 generated, address(x,y): 2,4
+Rider 221 generated, address(x,y): 4,2
+Rider 222 generated, address(x,y): 1,5
+Rider 223 generated, address(x,y): 1,6
+Rider 224 generated, address(x,y): 2,3
+Rider 225 generated, address(x,y): 3,4
+Rider 226 generated, address(x,y): 2,5
+Rider 227 generated, address(x,y): 4,3
+Rider 228 generated, address(x,y): 1,6
+Rider 229 generated, address(x,y): 1,7
+Rider 230 generated, address(x,y): 2,4
+Rider 231 generated, address(x,y): 3,5
+Rider 232 generated, address(x,y): 4,2
+Rider 233 generated, address(x,y): 3,1
+Rider 234 generated, address(x,y): 2,2
+Rider 235 generated, address(x,y): 5,1
+Rider 236 generated, address(x,y): 4,2
+Rider 237 generated, address(x,y): 3,3
+Rider 238 generated, address(x,y): 4,2
+Rider 239 generated, address(x,y): 3,1
+Rider 240 generated, address(x,y): 3,3
+Rider 241 generated, address(x,y): 3,2
+Rider 242 generated, address(x,y): 2,1
+Rider 243 generated, address(x,y): 2,2
+Rider 244 generated, address(x,y): 6,1
+Rider 245 generated, address(x,y): 1,4
+Rider 246 generated, address(x,y): 4,2
+Rider 247 generated, address(x,y): 4,3
+Rider 248 generated, address(x,y): 3,3
+Rider 249 generated, address(x,y): 4,1
+Rider 250 generated, address(x,y): 4,2
+Rider 251 generated, address(x,y): 3,4
+Rider 252 generated, address(x,y): 4,3
+Rider 253 generated, address(x,y): 4,4
+Rider 254 generated, address(x,y): 4,3
+Rider 255 generated, address(x,y): 3,2
+Rider 256 generated, address(x,y): 1,2
+Rider 257 generated, address(x,y): 2,2
+Rider 258 generated, address(x,y): 2,1
+Rider 259 generated, address(x,y): 1,3
+Rider 260 generated, address(x,y): 2,2
+Rider 261 generated, address(x,y): 2,1
+Rider 262 generated, address(x,y): 2,6
+Rider 263 generated, address(x,y): 6,3
+Rider 264 generated, address(x,y): 1,4
+Rider 265 generated, address(x,y): 4,5
+Rider 266 generated, address(x,y): 3,4
+Rider 267 generated, address(x,y): 1,4
+Rider 268 generated, address(x,y): 2,2
+Rider 269 generated, address(x,y): 1,1
+Rider 270 generated, address(x,y): 2,1
+Rider 271 generated, address(x,y): 4,4
+Rider 272 generated, address(x,y): 3,5
+Rider 273 generated, address(x,y): 4,6
+Rider 274 generated, address(x,y): 4,7
+Rider 275 generated, address(x,y): 4,8
+Rider 276 generated, address(x,y): 4,4
+Rider 277 generated, address(x,y): 4,5
+Rider 278 generated, address(x,y): 3,4
+Rider 279 generated, address(x,y): 4,3
+Rider 280 generated, address(x,y): 4,4
+Rider 281 generated, address(x,y): 3,5
+Rider 282 generated, address(x,y): 4,6
+Rider 283 generated, address(x,y): 4,7
+Rider 284 generated, address(x,y): 4,4
+Rider 285 generated, address(x,y): 4,5
+Rider 286 generated, address(x,y): 3,4
+Rider 287 generated, address(x,y): 4,3
+Rider 288 generated, address(x,y): 4,4
+Rider 289 generated, address(x,y): 3,5
+Rider 290 generated, address(x,y): 1,4
+Rider 291 generated, address(x,y): 4,5
+Rider 292 generated, address(x,y): 3,4
+Rider 293 generated, address(x,y): 1,4
+Rider 294 generated, address(x,y): 2,2
+Rider 295 generated, address(x,y): 1,1
+Rider 296 generated, address(x,y): 2,1
+Rider 297 generated, address(x,y): 4,4
+Rider 298 generated, address(x,y): 3,5
+Rider 299 generated, address(x,y): 4,6
+Rider 300 generated, address(x,y): 4,7
 Reloj: 1,Pedido: 1,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: No asignado
 Reloj: 1,Pedido: 1,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 1,Repartidor: Asignado
-Reloj: 1,Pedido: 1,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: Asignado a rider: 6
-Reloj: 2,Pedido: 2,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: No asignado
-Reloj: 2,Pedido: 1,Tipo de producto: ROTISERIA,Estado: Comenzó a prepararse,Local: 1,Repartidor: Asignado
-Reloj: 2,Pedido: 2,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: Asignado a rider: 1
-Reloj: 2,Pedido: 1,Tipo de producto: PIZZERIA,Estado: Comenzó a prepararse,Local: 1,Repartidor: Asignado
+Reloj: 1,Pedido: 1,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: Asignado a rider: 39
+Reloj: 2,Pedido: 2,Tipo de producto: Orden completa,Estado: Asignado,Local: 2,Repartidor: No asignado
+Reloj: 2,Pedido: 2,Tipo de producto: Orden completa,Estado: Asignado,Local: 2,Repartidor: Asignado a rider: 13
+Reloj: 2,Pedido: 2,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 2,Repartidor: Asignado
+Reloj: 2,Pedido: 1,Tipo de producto: PIZZERIA,Estado: Comenz? a prepararse,Local: 1,Repartidor: Asignado
+Reloj: 2,Pedido: 1,Tipo de producto: ROTISERIA,Estado: Comenz? a prepararse,Local: 1,Repartidor: Asignado
 Reloj: 2,Pedido: 1,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 1,Repartidor: Asignado
-Reloj: 2,Pedido: 2,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 1,Repartidor: Asignado
-Reloj: 3,Pedido: 3,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: No asignado
-Reloj: 3,Pedido: 2,Tipo de producto: ROTISERIA,Estado: Comenzó a prepararse,Local: 1,Repartidor: Asignado
-Reloj: 3,Pedido: 3,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: Asignado a rider: 2
-Reloj: 3,Pedido: 2,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 1,Repartidor: Asignado
-Reloj: 3,Pedido: 3,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 1,Repartidor: Asignado
-Reloj: 4,Pedido: 4,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: No asignado
-Reloj: 4,Pedido: 4,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: Asignado a rider: 10
-Reloj: 4,Pedido: 3,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 1,Repartidor: Asignado
-Reloj: 4,Pedido: 4,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 1,Repartidor: Asignado
-Reloj: 5,Pedido: 5,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: No asignado
-Reloj: 5,Pedido: 4,Tipo de producto: CONFITERIA,Estado: Comenzó a prepararse,Local: 1,Repartidor: Asignado
-Reloj: 5,Pedido: 5,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: Asignado a rider: 8
-Reloj: 5,Pedido: 3,Tipo de producto: ROTISERIA,Estado: Comenzó a prepararse,Local: 1,Repartidor: Asignado
-Reloj: 5,Pedido: 4,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 1,Repartidor: Asignado
-Reloj: 5,Pedido: 5,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 1,Repartidor: Asignado
-Reloj: 6,Pedido: 6,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: No asignado
-Reloj: 6,Pedido: 5,Tipo de producto: PIZZERIA,Estado: Comenzó a prepararse,Local: 1,Repartidor: Asignado
-Reloj: 6,Pedido: 6,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: Asignado a rider: 4
-Reloj: 6,Pedido: 5,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 1,Repartidor: Asignado
-Reloj: 6,Pedido: 6,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 1,Repartidor: Asignado
-Reloj: 7,Pedido: 6,Tipo de producto: PIZZERIA,Estado: Comenzó a prepararse,Local: 1,Repartidor: Asignado
+Reloj: 3,Pedido: 3,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 3,Pedido: 3,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: Asignado a rider: 17
+Reloj: 3,Pedido: 2,Tipo de producto: PIZZERIA,Estado: Comenz? a prepararse,Local: 2,Repartidor: Asignado
+Reloj: 3,Pedido: 2,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 2,Repartidor: Asignado
+Reloj: 4,Pedido: 3,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 3,Repartidor: Asignado
+Reloj: 4,Pedido: 4,Tipo de producto: Orden completa,Estado: Asignado,Local: 7,Repartidor: No asignado
+Reloj: 4,Pedido: 4,Tipo de producto: Orden completa,Estado: Asignado,Local: 7,Repartidor: Asignado a rider: 15
+Reloj: 5,Pedido: 3,Tipo de producto: ROTISERIA,Estado: Comenz? a prepararse,Local: 3,Repartidor: Asignado
+Reloj: 5,Pedido: 3,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 3,Repartidor: Asignado
+Reloj: 5,Pedido: 4,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 7,Repartidor: Asignado
+Reloj: 5,Pedido: 5,Tipo de producto: Orden completa,Estado: Asignado,Local: 4,Repartidor: No asignado
+Reloj: 5,Pedido: 5,Tipo de producto: Orden completa,Estado: Asignado,Local: 4,Repartidor: Asignado a rider: 4
+Reloj: 6,Pedido: 5,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 4,Repartidor: Asignado
+Reloj: 6,Pedido: 4,Tipo de producto: CONFITERIA,Estado: Comenz? a prepararse,Local: 7,Repartidor: Asignado
+Reloj: 6,Pedido: 4,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 7,Repartidor: Asignado
+Reloj: 6,Pedido: 6,Tipo de producto: Orden completa,Estado: Asignado,Local: 8,Repartidor: No asignado
+Reloj: 6,Pedido: 6,Tipo de producto: Orden completa,Estado: Asignado,Local: 8,Repartidor: Asignado a rider: 3
+Reloj: 7,Pedido: 6,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 8,Repartidor: Asignado
 Reloj: 7,Pedido: 7,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: No asignado
-Reloj: 7,Pedido: 6,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 1,Repartidor: Asignado
-Reloj: 7,Pedido: 7,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: Asignado a rider: 9
-Reloj: 7,Pedido: 7,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 1,Repartidor: Asignado
-Reloj: 8,Pedido: 7,Tipo de producto: PIZZERIA,Estado: Comenzó a prepararse,Local: 1,Repartidor: Asignado
-Reloj: 8,Pedido: 8,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: No asignado
-Reloj: 8,Pedido: 7,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 1,Repartidor: Asignado
-Reloj: 8,Pedido: 8,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: Asignado a rider: 3
-Reloj: 8,Pedido: 8,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 1,Repartidor: Asignado
-Reloj: 9,Pedido: 9,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: No asignado
-Reloj: 9,Pedido: 8,Tipo de producto: CONFITERIA,Estado: Comenzó a prepararse,Local: 1,Repartidor: Asignado
-Reloj: 9,Pedido: 9,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: Asignado a rider: 5
-Reloj: 9,Pedido: 8,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 1,Repartidor: Asignado
-Reloj: 9,Pedido: 9,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 1,Repartidor: Asignado
-Reloj: 10,Pedido: 10,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: No asignado
-Reloj: 10,Pedido: 9,Tipo de producto: PIZZERIA,Estado: Comenzó a prepararse,Local: 1,Repartidor: Asignado
-Reloj: 10,Pedido: 10,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: Asignado a rider: 7
-Reloj: 10,Pedido: 9,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 1,Repartidor: Asignado
-Reloj: 10,Pedido: 10,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 1,Repartidor: Asignado
-Reloj: 11,Pedido: 11,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: No asignado
-Reloj: 11,Pedido: 10,Tipo de producto: CONFITERIA,Estado: Comenzó a prepararse,Local: 1,Repartidor: Asignado
-Reloj: 11,Pedido: 10,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 1,Repartidor: Asignado
-Reloj: 11,Pedido: 11,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 1,Repartidor: Asignado
-Reloj: 12,Pedido: 11,Tipo de producto: PIZZERIA,Estado: Comenzó a prepararse,Local: 1,Repartidor: Asignado
-Reloj: 12,Pedido: 11,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 1,Repartidor: Asignado
+Reloj: 7,Pedido: 7,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: Asignado a rider: 1
+Reloj: 7,Pedido: 5,Tipo de producto: ROTISERIA,Estado: Comenz? a prepararse,Local: 4,Repartidor: Asignado
+Reloj: 7,Pedido: 5,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 4,Repartidor: Asignado
+Reloj: 8,Pedido: 7,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 1,Repartidor: Asignado
+Reloj: 8,Pedido: 8,Tipo de producto: Orden completa,Estado: Asignado,Local: 9,Repartidor: No asignado
+Reloj: 8,Pedido: 8,Tipo de producto: Orden completa,Estado: Asignado,Local: 9,Repartidor: Asignado a rider: 9
+Reloj: 8,Pedido: 6,Tipo de producto: CONFITERIA,Estado: Comenz? a prepararse,Local: 8,Repartidor: Asignado
+Reloj: 8,Pedido: 6,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 8,Repartidor: Asignado
+Reloj: 8,Pedido: 8,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 9,Repartidor: Asignado
+Reloj: 9,Pedido: 9,Tipo de producto: Orden completa,Estado: Asignado,Local: 10,Repartidor: No asignado
+Reloj: 9,Pedido: 9,Tipo de producto: Orden completa,Estado: Asignado,Local: 10,Repartidor: Asignado a rider: 34
+Reloj: 9,Pedido: 8,Tipo de producto: ROTISERIA,Estado: Comenz? a prepararse,Local: 9,Repartidor: Asignado
+Reloj: 9,Pedido: 8,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 9,Repartidor: Asignado
+Reloj: 9,Pedido: 7,Tipo de producto: PIZZERIA,Estado: Comenz? a prepararse,Local: 1,Repartidor: Asignado
+Reloj: 9,Pedido: 7,Tipo de producto: ROTISERIA,Estado: Comenz? a prepararse,Local: 1,Repartidor: Asignado
+Reloj: 9,Pedido: 7,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 1,Repartidor: Asignado
+Reloj: 10,Pedido: 9,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 10,Repartidor: Asignado
+Reloj: 10,Pedido: 10,Tipo de producto: Orden completa,Estado: Asignado,Local: 5,Repartidor: No asignado
+Reloj: 10,Pedido: 10,Tipo de producto: Orden completa,Estado: Asignado,Local: 5,Repartidor: Asignado a rider: 118
+Reloj: 11,Pedido: 11,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 11,Pedido: 11,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: Asignado a rider: 224
+Reloj: 11,Pedido: 10,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 5,Repartidor: Asignado
+Reloj: 11,Pedido: 11,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 3,Repartidor: Asignado
+Reloj: 11,Pedido: 9,Tipo de producto: CONFITERIA,Estado: Comenz? a prepararse,Local: 10,Repartidor: Asignado
+Reloj: 11,Pedido: 9,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 10,Repartidor: Asignado
+Reloj: 12,Pedido: 10,Tipo de producto: PIZZERIA,Estado: Comenz? a prepararse,Local: 5,Repartidor: Asignado
+Reloj: 12,Pedido: 10,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 5,Repartidor: Asignado
+Reloj: 12,Pedido: 11,Tipo de producto: ROTISERIA,Estado: Comenz? a prepararse,Local: 3,Repartidor: Asignado
+Reloj: 12,Pedido: 11,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 3,Repartidor: Asignado
+Reloj: 12,Pedido: 12,Tipo de producto: Orden completa,Estado: Asignado,Local: 7,Repartidor: No asignado
+Reloj: 12,Pedido: 12,Tipo de producto: Orden completa,Estado: Asignado,Local: 7,Repartidor: Asignado a rider: 32
+Reloj: 13,Pedido: 13,Tipo de producto: Orden completa,Estado: Asignado,Local: 4,Repartidor: No asignado
+Reloj: 13,Pedido: 13,Tipo de producto: Orden completa,Estado: Asignado,Local: 4,Repartidor: Asignado a rider: 189
+Reloj: 13,Pedido: 12,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 7,Repartidor: Asignado
+Reloj: 13,Pedido: 13,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 4,Repartidor: Asignado
+Reloj: 14,Pedido: 12,Tipo de producto: CONFITERIA,Estado: Comenz? a prepararse,Local: 7,Repartidor: Asignado
+Reloj: 14,Pedido: 12,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 7,Repartidor: Asignado
+Reloj: 14,Pedido: 14,Tipo de producto: Orden completa,Estado: Asignado,Local: 8,Repartidor: No asignado
+Reloj: 14,Pedido: 14,Tipo de producto: Orden completa,Estado: Asignado,Local: 8,Repartidor: Asignado a rider: 134
+Reloj: 14,Pedido: 14,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 8,Repartidor: Asignado
+Reloj: 14,Pedido: 13,Tipo de producto: ROTISERIA,Estado: Comenz? a prepararse,Local: 4,Repartidor: Asignado
+Reloj: 14,Pedido: 13,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 4,Repartidor: Asignado
+Reloj: 15,Pedido: 14,Tipo de producto: CONFITERIA,Estado: Comenz? a prepararse,Local: 8,Repartidor: Asignado
+Reloj: 15,Pedido: 14,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 8,Repartidor: Asignado
+Reloj: 15,Pedido: 15,Tipo de producto: Orden completa,Estado: Asignado,Local: 10,Repartidor: No asignado
+Reloj: 15,Pedido: 15,Tipo de producto: Orden completa,Estado: Asignado,Local: 10,Repartidor: Asignado a rider: 6
+Reloj: 16,Pedido: 15,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 10,Repartidor: Asignado
+Reloj: 16,Pedido: 16,Tipo de producto: Orden completa,Estado: Asignado,Local: 9,Repartidor: No asignado
+Reloj: 16,Pedido: 16,Tipo de producto: Orden completa,Estado: Asignado,Local: 9,Repartidor: Asignado a rider: 16
+Reloj: 16,Pedido: 16,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 9,Repartidor: Asignado
+Reloj: 17,Pedido: 16,Tipo de producto: ROTISERIA,Estado: Comenz? a prepararse,Local: 9,Repartidor: Asignado
+Reloj: 17,Pedido: 16,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 9,Repartidor: Asignado
+Reloj: 17,Pedido: 17,Tipo de producto: Orden completa,Estado: Asignado,Local: 6,Repartidor: No asignado
+Reloj: 17,Pedido: 17,Tipo de producto: Orden completa,Estado: Asignado,Local: 6,Repartidor: Asignado a rider: 10
+Reloj: 17,Pedido: 15,Tipo de producto: CONFITERIA,Estado: Comenz? a prepararse,Local: 10,Repartidor: Asignado
+Reloj: 17,Pedido: 15,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 10,Repartidor: Asignado
+Reloj: 18,Pedido: 17,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 6,Repartidor: Asignado
+Reloj: 18,Pedido: 18,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: No asignado
+Reloj: 18,Pedido: 18,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: Asignado a rider: 30
+Reloj: 18,Pedido: 18,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 1,Repartidor: Asignado
+Reloj: 19,Pedido: 19,Tipo de producto: Orden completa,Estado: Asignado,Local: 2,Repartidor: No asignado
+Reloj: 19,Pedido: 19,Tipo de producto: Orden completa,Estado: Asignado,Local: 2,Repartidor: Asignado a rider: 40
+Reloj: 19,Pedido: 17,Tipo de producto: PIZZERIA,Estado: Comenz? a prepararse,Local: 6,Repartidor: Asignado
+Reloj: 19,Pedido: 17,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 6,Repartidor: Asignado
+Reloj: 19,Pedido: 18,Tipo de producto: CONFITERIA,Estado: Comenz? a prepararse,Local: 1,Repartidor: Asignado
+Reloj: 19,Pedido: 18,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 1,Repartidor: Asignado
+Reloj: 20,Pedido: 19,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 2,Repartidor: Asignado
+Reloj: 20,Pedido: 20,Tipo de producto: Orden completa,Estado: Asignado,Local: 5,Repartidor: No asignado
+Reloj: 20,Pedido: 20,Tipo de producto: Orden completa,Estado: Asignado,Local: 5,Repartidor: Asignado a rider: 139
+Reloj: 21,Pedido: 20,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 5,Repartidor: Asignado
+Reloj: 21,Pedido: 21,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: No asignado
+Reloj: 21,Pedido: 21,Tipo de producto: Orden completa,Estado: Asignado,Local: 3,Repartidor: Asignado a rider: 11
+Reloj: 21,Pedido: 19,Tipo de producto: PIZZERIA,Estado: Comenz? a prepararse,Local: 2,Repartidor: Asignado
+Reloj: 21,Pedido: 19,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 2,Repartidor: Asignado
+Reloj: 22,Pedido: 22,Tipo de producto: Orden completa,Estado: Asignado,Local: 7,Repartidor: No asignado
+Reloj: 22,Pedido: 22,Tipo de producto: Orden completa,Estado: Asignado,Local: 7,Repartidor: Asignado a rider: 37
+Reloj: 22,Pedido: 22,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 7,Repartidor: Asignado
+Reloj: 22,Pedido: 20,Tipo de producto: PIZZERIA,Estado: Comenz? a prepararse,Local: 5,Repartidor: Asignado
+Reloj: 22,Pedido: 20,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 5,Repartidor: Asignado
+Reloj: 22,Pedido: 21,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 3,Repartidor: Asignado
+Reloj: 23,Pedido: 22,Tipo de producto: CONFITERIA,Estado: Comenz? a prepararse,Local: 7,Repartidor: Asignado
+Reloj: 23,Pedido: 22,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 7,Repartidor: Asignado
+Reloj: 23,Pedido: 23,Tipo de producto: Orden completa,Estado: Asignado,Local: 8,Repartidor: No asignado
+Reloj: 23,Pedido: 23,Tipo de producto: Orden completa,Estado: Asignado,Local: 8,Repartidor: Asignado a rider: 159
+Reloj: 23,Pedido: 21,Tipo de producto: ROTISERIA,Estado: Comenz? a prepararse,Local: 3,Repartidor: Asignado
+Reloj: 23,Pedido: 21,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 3,Repartidor: Asignado
+Reloj: 24,Pedido: 23,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 8,Repartidor: Asignado
+Reloj: 24,Pedido: 24,Tipo de producto: Orden completa,Estado: Asignado,Local: 4,Repartidor: No asignado
+Reloj: 24,Pedido: 24,Tipo de producto: Orden completa,Estado: Asignado,Local: 4,Repartidor: Asignado a rider: 233
+Reloj: 25,Pedido: 23,Tipo de producto: CONFITERIA,Estado: Comenz? a prepararse,Local: 8,Repartidor: Asignado
+Reloj: 25,Pedido: 24,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 4,Repartidor: Asignado
+Reloj: 25,Pedido: 23,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 8,Repartidor: Asignado
+Reloj: 25,Pedido: 25,Tipo de producto: Orden completa,Estado: Asignado,Local: 6,Repartidor: No asignado
+Reloj: 25,Pedido: 25,Tipo de producto: Orden completa,Estado: Asignado,Local: 6,Repartidor: Asignado a rider: 27
+Reloj: 26,Pedido: 24,Tipo de producto: ROTISERIA,Estado: Comenz? a prepararse,Local: 4,Repartidor: Asignado
+Reloj: 26,Pedido: 24,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 4,Repartidor: Asignado
+Reloj: 26,Pedido: 26,Tipo de producto: Orden completa,Estado: Asignado,Local: 10,Repartidor: No asignado
+Reloj: 26,Pedido: 26,Tipo de producto: Orden completa,Estado: Asignado,Local: 10,Repartidor: Asignado a rider: 18
+Reloj: 26,Pedido: 25,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 6,Repartidor: Asignado
+Reloj: 27,Pedido: 27,Tipo de producto: Orden completa,Estado: Asignado,Local: 2,Repartidor: No asignado
+Reloj: 27,Pedido: 27,Tipo de producto: Orden completa,Estado: Asignado,Local: 2,Repartidor: Asignado a rider: 54
+Reloj: 27,Pedido: 25,Tipo de producto: PIZZERIA,Estado: Comenz? a prepararse,Local: 6,Repartidor: Asignado
+Reloj: 27,Pedido: 25,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 6,Repartidor: Asignado
+Reloj: 27,Pedido: 26,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 10,Repartidor: Asignado
+Reloj: 27,Pedido: 27,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 2,Repartidor: Asignado
+Reloj: 28,Pedido: 28,Tipo de producto: Orden completa,Estado: Asignado,Local: 5,Repartidor: No asignado
+Reloj: 28,Pedido: 28,Tipo de producto: Orden completa,Estado: Asignado,Local: 5,Repartidor: Asignado a rider: 175
+Reloj: 28,Pedido: 27,Tipo de producto: PIZZERIA,Estado: Comenz? a prepararse,Local: 2,Repartidor: Asignado
+Reloj: 28,Pedido: 27,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 2,Repartidor: Asignado
+Reloj: 28,Pedido: 28,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 5,Repartidor: Asignado
+Reloj: 28,Pedido: 26,Tipo de producto: CONFITERIA,Estado: Comenz? a prepararse,Local: 10,Repartidor: Asignado
+Reloj: 28,Pedido: 26,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 10,Repartidor: Asignado
+Reloj: 29,Pedido: 29,Tipo de producto: Orden completa,Estado: Asignado,Local: 9,Repartidor: No asignado
+Reloj: 29,Pedido: 29,Tipo de producto: Orden completa,Estado: Asignado,Local: 9,Repartidor: Asignado a rider: 26
+Reloj: 29,Pedido: 28,Tipo de producto: PIZZERIA,Estado: Comenz? a prepararse,Local: 5,Repartidor: Asignado
+Reloj: 29,Pedido: 28,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 5,Repartidor: Asignado
+Reloj: 29,Pedido: 29,Tipo de producto: Orden completa,Estado: Asignada a cocinero(s),Local: 9,Repartidor: Asignado
+Reloj: 30,Pedido: 29,Tipo de producto: ROTISERIA,Estado: Comenz? a prepararse,Local: 9,Repartidor: Asignado
+Reloj: 30,Pedido: 29,Tipo de producto: Orden completa,Estado: Esperando repartidor,Local: 9,Repartidor: Asignado
+Reloj: 30,Pedido: 30,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: No asignado
+Reloj: 30,Pedido: 30,Tipo de producto: Orden completa,Estado: Asignado,Local: 1,Repartidor: Asignado a rider: 84

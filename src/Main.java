@@ -23,10 +23,12 @@ public class Main {
             Thread thr = new Thread(business);
             thr.start();
         }
+        
         for (Rider rider : orderHandler.getRiders()) {
             Thread thr = new Thread(rider);
             thr.start();
         }
+        
         while(atomicInteger.get() <= 30) {
             Thread.sleep(200);
             atomicInteger.incrementAndGet();
