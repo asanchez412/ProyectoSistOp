@@ -39,23 +39,18 @@ public class OrderHandler implements Runnable {
 
     @Override
     public void run() {
+        riderSelector.setRidersList(availableRiders);
         selector.setBusinessList(availableBusiness);
-        Boolean added = false;
         while(true) {
             if(i == Main.atomicInteger.get()) {
-                if(toDistribute.size() > 0 && !added) {
+                if(toDistribute.size() > 0) {
                     Order ord = sendOrderToBusiness();
                     sendOrderToRider(ord);
                     i++;
                 }
-                added = true;
             }
             else if (i < Main.atomicInteger.get()) {
                 i = Main.atomicInteger.get();
-                added = false;
-            }
-            else {
-                added = false;
             }
         }
     }

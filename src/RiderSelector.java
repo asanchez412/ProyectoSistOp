@@ -14,12 +14,12 @@ public class RiderSelector{
         double distance = Double.MIN_VALUE;
         double minDistance = Double.MAX_VALUE;
         for (Rider rider : ridersList) {
-            riderCounter++;
             distance = Utils.calculateDistance(rider.getActualPosition(), order.getBusiness().getAddress());
             if (minDistance > distance){
                 minDistance = distance;
                 riderPosition = riderCounter;
             }
+            riderCounter++;
         }
         theRider = ridersList.get(riderPosition);
         theRider.setOrder(order);

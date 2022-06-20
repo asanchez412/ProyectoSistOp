@@ -14,7 +14,6 @@ public class Main {
         OrderGenerator.generateOrder("src/entrada1.csv");
         BusinessAndCookerGenerator.setOrderHandler(orderHandler);
         BusinessAndCookerGenerator.generateBusinessAndCookers("src/locales.csv");
-
         RiderGenerator.setOrderHandler(orderHandler);
         RiderGenerator.generateRiders("src/repartidores.csv");
 
@@ -34,8 +33,5 @@ public class Main {
         }
         writer.flush();
         writer.close();
-
-        //2,3=1,1=3#3=2
-        //3,2=2,1=2
     }   
 }

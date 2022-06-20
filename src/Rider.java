@@ -98,11 +98,13 @@ public class Rider implements Runnable{
     @Override
     public void run() {
         while(true) {
-            if(i == Main.atomicInteger.get()){
+            if(i == Main.atomicInteger.get()) {
                 moveRider();
+                i++;
             }
-            i++;
+            else if (i < Main.atomicInteger.get()) {
+                i = Main.atomicInteger.get();
+            }
         }
     }
-
 }

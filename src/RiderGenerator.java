@@ -22,7 +22,6 @@ public class RiderGenerator {
                     Integer riderId = Integer.parseInt(attributes[0]);
                     Rider rider = new Rider(riderId, address);
                     orderHandler.addRiders(rider);
-
                     CustomWriter.write(new String[] { String.format("Rider %s generated, address(x,y): %s,%s", riderId, strAddress[0], strAddress[1]) }); 
                 }
                 else {

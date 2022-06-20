@@ -1,5 +1,4 @@
 import java.util.HashMap;
-import java.util.concurrent.Semaphore;
 import java.util.ArrayList;
 
 public class Business implements Runnable {
@@ -12,8 +11,6 @@ public class Business implements Runnable {
     private HashMap<Meal.FoodType, Cooker> cookers = new HashMap<Meal.FoodType, Cooker>(); 
     private int i = 1;
     private int orderCounter = 0;
-
-    private Semaphore semaphore = new Semaphore(1);
     
     public Business(Integer id, int[] address) {
         this.id = id;
