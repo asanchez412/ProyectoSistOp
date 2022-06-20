@@ -21,11 +21,14 @@ public class Main {
             thr.start();
         }
 
-        while(atomicInteger.get() <= 10) {
-            Thread.sleep(1000);
+        while(atomicInteger.get() <= 30) {
+            Thread.sleep(200);
             atomicInteger.incrementAndGet();
         }
         writer.flush();
         writer.close();
+
+        //2,3=1,1=3#3=2
+        //3,2=2,1=2
     }   
 }

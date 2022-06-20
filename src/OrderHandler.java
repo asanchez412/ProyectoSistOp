@@ -16,10 +16,10 @@ public class OrderHandler implements Runnable {
         selector.selectBusiness(order);
         Business business = order.getBusiness(); 
         if(business != null) {
-            business.addOrder(order.clone());
+            business.addOrder(order);
         }
         else {
-            // TODO: Log failure
+            CustomWriter.write(new String[] {Integer.toString(i), Integer.toString(order.getId()), "La orden no pudo ser asignada", "No Asignado", "No se pudo asignar", "No asignado"});
         }
         toDistribute.remove(0);
         CustomWriter.write(new String[] {Integer.toString(i), Integer.toString(order.getId()), "Orden completa", "Asignado", Integer.toString(order.getBusiness().getId()), "No asignado"});
@@ -36,12 +36,21 @@ public class OrderHandler implements Runnable {
     @Override
     public void run() {
         selector.setBusinessList(availableBusiness);
+        Boolean added = false;
         while(true) {
             if(i == Main.atomicInteger.get()) {
-                if(toDistribute.size() > 0) {
+                if(toDistribute.size() > 0 && !added) {
                     sendOrderToBusiness();
+                    i++;
                 }
-                i++;    
+                added = true;
+            }
+            else if (i < Main.atomicInteger.get()) {
+                i = Main.atomicInteger.get();
+                added = false;
+            }
+            else {
+                added = false;
             }
         }
     }
