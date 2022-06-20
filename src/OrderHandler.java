@@ -3,15 +3,17 @@ import java.util.ArrayList;
 public class OrderHandler implements Runnable {
     private ArrayList<Order> toDistribute = new ArrayList<Order>();
     private BusinessSelector selector = new BusinessSelector();
-    private RiderSelector riderSelector = new RiderSelector();
     private ArrayList<Business> availableBusiness = new ArrayList<Business>();
     private int i = 1;
 
+    private RiderSelector riderSelector = new RiderSelector();
+    private ArrayList<Rider> availableRiders = new ArrayList<Rider>();
+    
     public void addOrder(Order order) {
         toDistribute.add(order);
     }
 
-    public void sendOrderToBusiness() {
+    public Order sendOrderToBusiness() {
         Order order = toDistribute.get(0);
         selector.selectBusiness(order);
         Business business = order.getBusiness(); 
@@ -20,9 +22,11 @@ public class OrderHandler implements Runnable {
         }
         else {
             CustomWriter.write(new String[] {Integer.toString(i), Integer.toString(order.getId()), "La orden no pudo ser asignada", "No Asignado", "No se pudo asignar", "No asignado"});
+            return null;
         }
         toDistribute.remove(0);
         CustomWriter.write(new String[] {Integer.toString(i), Integer.toString(order.getId()), "Orden completa", "Asignado", Integer.toString(order.getBusiness().getId()), "No asignado"});
+        return order;
     }
     
     public void addBusiness(Business business) {
@@ -40,7 +44,8 @@ public class OrderHandler implements Runnable {
         while(true) {
             if(i == Main.atomicInteger.get()) {
                 if(toDistribute.size() > 0 && !added) {
-                    sendOrderToBusiness();
+                    Order ord = sendOrderToBusiness();
+                    sendOrderToRider(ord);
                     i++;
                 }
                 added = true;
@@ -54,4 +59,24 @@ public class OrderHandler implements Runnable {
             }
         }
     }
+
+    public ArrayList<Rider> getRiders() {
+        return availableRiders;
+    }
+
+    public void addRiders(Rider rider) {
+        availableRiders.add(rider);
+    }
+
+    public void sendOrderToRider(Order order) {
+        Rider rider = riderSelector.selectRider(order);
+        if(rider != null){
+            order.setRider(rider);
+        }
+        else {
+            // TODO: Log failure
+        }
+        CustomWriter.write(new String[] {Integer.toString(i), Integer.toString(order.getId()), "Orden completa", "Asignado", Integer.toString(order.getBusiness().getId()), "Asignado a rider: " + rider.getId().toString()});
+    }
+    
 }

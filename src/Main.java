@@ -14,13 +14,20 @@ public class Main {
         OrderGenerator.generateOrder("src/entrada1.csv");
         BusinessAndCookerGenerator.setOrderHandler(orderHandler);
         BusinessAndCookerGenerator.generateBusinessAndCookers("src/locales.csv");
+
+        RiderGenerator.setOrderHandler(orderHandler);
+        RiderGenerator.generateRiders("src/repartidores.csv");
+
         Thread th = new Thread(orderHandler);
         th.start();
         for (Business business : orderHandler.getBusiness()) {
             Thread thr = new Thread(business);
             thr.start();
         }
-
+        for (Rider rider : orderHandler.getRiders()) {
+            Thread thr = new Thread(rider);
+            thr.start();
+        }
         while(atomicInteger.get() <= 30) {
             Thread.sleep(200);
             atomicInteger.incrementAndGet();

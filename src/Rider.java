@@ -9,6 +9,12 @@ public class Rider implements Runnable{
     private State state = State.PASSIVE;
     private OrderState orderState = OrderState.WITHOUT_ORDER;
     private Integer time = 0;
+    private int i = 1;
+
+    public Rider(Integer id, int[] pPosition) {
+        this.id = id;
+        this.actualPosition = pPosition;
+    }
 
     public enum State{
         BUSY,
@@ -92,9 +98,10 @@ public class Rider implements Runnable{
     @Override
     public void run() {
         while(true) {
-            //if(i == Main.atomicInteger.get()){
-
-            //}
+            if(i == Main.atomicInteger.get()){
+                moveRider();
+            }
+            i++;
         }
     }
 
